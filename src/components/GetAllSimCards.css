@@ -1,0 +1,64 @@
+.sim-cards-table th {
+    background-color: #9bd8d2; /* Dark shade for table header */
+    color: #fff; /* White text color */
+  }
+  
+  .sim-cards-table tbody tr:nth-child(even) {
+    background-color: #f2e4e0; /* Light shade for even rows */
+  }
+  
+  .sim-cards-table tbody tr:nth-child(odd) {
+    background-color:#d4edda; /* Darker shade for odd rows */
+  }
+  .get-container {
+      background-image: url('D://FRONTEND//capstoneproject//public//a1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100vh;
+      padding: 40px 0;
+    }
+
+  
+  .card-container {
+    margin-top: 20px; /* Margin for the card container */
+    padding: 20px; /* Padding inside the card container */
+    border: 1px solid #ccc; /* Border for the card container */
+    border-radius: 5px; /* Rounded corners for the card container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the card container */
+  }
+  
+  .btn-success {
+    background-color: #7cc6be; /* Shade color for success button */
+    border-color:#f8d7da; /* Border color for success button */
+  }
+  
+  .btn-success:hover {
+    background-color: #208E78; /* Darker shade on hover for success button */
+    border-color: #208E78; /* Darker border color on hover for success button */
+  }
+  
+  .alert-danger {
+    background-color: #8cdcc6; /* Background color for danger alert */
+    border-color: #f5c6cb; /* Border color for danger alert */
+    color: #680d15; /* Text color for danger alert */
+  }
+  
+  .alert-success {
+    background-color: #d4edda; /* Background color for success alert */
+    border-color: #c3e6cb; /* Border color for success alert */
+    color: #83b38e; /* Text color for success alert */
+  }
+  
+  .container {
+    max-width: 1200px; /* Max width for the container */
+  }
+  
+  .mt-5 {
+    margin-top: 3rem !important; /* Margin top utility class */
+  }
+  
+  .text-center {
+    text-align: center; /* Center align text utility class */
+  }
+  

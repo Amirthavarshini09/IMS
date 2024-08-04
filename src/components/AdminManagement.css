@@ -1,0 +1,66 @@
+.admin-management {
+    background-image: url('D://FRONTEND//capstoneproject//public//a1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 40px 0;
+  }
+  
+
+  h2 {
+    color:black;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .table {
+    background-color: rgb(227, 198, 198);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .table thead {
+    background-color: #26A69A;
+    color: white;
+  }
+  
+  .table thead th {
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #beb8b8;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #26A69A;
+    border-color: #26A69A;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #00897B;
+    border-color: #00897B;
+  }
+  .text-center {
+    color:#000000;
+  }
+  .table td{
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  }

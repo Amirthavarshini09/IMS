@@ -1,0 +1,61 @@
+/* BoardManager.css */
+
+/* Apply font to the entire body */
+body {
+    font-family: serif;
+    font-size: 18px;
+  }
+  
+  /* Apply background color to the entire container */
+  .container-fluid {
+    background-color: #e0f2f1; /* Light teal */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the jumbotron header */
+  .jumbotron {
+    background-color: #26a69a; /* Teal */
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron h2 {
+    color: white;
+  }
+  
+  /* Style the content div */
+  .content-div {
+    background-color: white; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Button description text */
+  .button-description {
+    color: #004d40; /* Dark teal text */
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px; /* Adjust spacing between button and description */
+  }
+  
+  /* Custom button styles */
+  .custom-button {
+    background-color: #66cdaa; /* Light teal green shade */
+    color: white;
+    border: none;
+    width: 100%; /* Ensure button spans full width */
+    margin-bottom: 10px; /* Adjust spacing between buttons */
+  }
+  
+  .custom-button:hover {
+    background-color: #5cb899; /* Slightly darker teal green for hover */
+  }
+  

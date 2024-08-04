@@ -1,0 +1,56 @@
+.technical-staff-dashboard {
+  background-color: #20B2AA; /* Light Sea Green */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.dashboard-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.action-box {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 45%;
+  min-width: 250px;
+  margin: 10px; /* Add margin for spacing between cards */
+  text-align: center;
+}
+
+.action-button {
+  background-color: #5F9EA0; /* Cadet Blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.action-button:hover {
+  background-color: #4682B4; /* Steel Blue */
+}
+
+.action-description {
+  color: #708090; /* Slate Gray */
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .action-box {
+    width: 90%;
+  }
+}

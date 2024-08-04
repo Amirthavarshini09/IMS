@@ -1,0 +1,34 @@
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Title styling */
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Alert styling */
+  .alert-info {
+    margin-top: 20px;
+  }
+  
+  /* List styling */
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn-danger {
+    background-color: #0fa09c;
+    border-color: #0fa09c;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+  }
+  

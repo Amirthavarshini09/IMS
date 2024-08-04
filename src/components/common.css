@@ -1,0 +1,111 @@
+/* common.css */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('D://FRONTEND//capstoneproject//public//a1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #26A69A;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #26A69A;
+    border-color: #26A69A;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2c7a7b;
+    border-color: #2c7a7b;
+}
+
+/* Tables */
+.table {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #26A69A;
+    color: white;
+    border: none;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Forms */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #26A69A;
+    box-shadow: 0 0 0 0.2rem rgba(38, 166, 154, 0.25);
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Alerts */
+.alert {
+    border-radius: 5px;
+}
+
+/* Custom background colors */
+.bg-custom-primary {
+    background-color: #26A69A;
+}
+
+.bg-custom-light {
+    background-color: #E0F2F1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 1.5rem;
+    }
+}

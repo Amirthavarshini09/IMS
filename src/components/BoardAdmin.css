@@ -1,0 +1,88 @@
+/* BoardAdmin.css */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.admin-dashboard {
+  background-image: url('D://FRONTEND//capstoneproject//public//a1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-header h2 {
+  color:rgb(0, 0, 0);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.content-card {
+  background-color:floralwhite;
+  border-radius: 10px;
+  padding: 25px;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.content-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.content-card h3 {
+  color:indigo;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  
+}
+
+.custom-button {
+  background-color:rgb(24, 28, 134);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.custom-button:hover {
+  background-color: #072e2a;
+}
+
+.card-description {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .dashboard-header h2 {
+    font-size: 2rem;
+  }
+
+  .content-card {
+    margin-bottom: 20px;
+  }
+}
